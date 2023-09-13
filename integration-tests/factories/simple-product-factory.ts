@@ -29,7 +29,7 @@ export type ProductFactoryData = {
   tags?: string[]
   handle?: string
   options?: { id: string; title: string }[]
-  variants?: ProductVariantFactoryData[]
+  variants?: Omit<ProductVariantFactoryData, "product_id">[]
   sales_channels?: SalesChannelFactoryData[]
   metadata?: Record<string, unknown>
 }
