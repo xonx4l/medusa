@@ -1,5 +1,11 @@
 # @medusajs/admin-ui
 
+## 2.1.1
+
+### Patch Changes
+
+- [#5103](https://github.com/medusajs/medusa/pull/5103) [`4710520c3`](https://github.com/medusajs/medusa/commit/4710520c35886c1df7dd934e7950b6309e1f78df) Thanks [@fPolic](https://github.com/fPolic)! - fix(admin-ui): import modal template
+
 ## 2.1.0
 
 ### Minor Changes
